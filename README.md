@@ -8,6 +8,7 @@ My name's Harry, I'm a Comp Sci student studying at HKUST. I also have an extend
 - [Page Contents](#page-contents)
 - [Coursework and Projects](#coursework-and-projects)
   - [Project Diaries - Human Computer Interaction (Comp4461)](#project-diaries---human-computer-interaction-comp4461)
+  - [Notes -  Human Computer Interaction](#notes----human-computer-interaction)
 - [My Skills](#my-skills)
 - [More about me](#more-about-me)
   - [My Socials](#my-socials)
@@ -18,6 +19,8 @@ My name's Harry, I'm a Comp Sci student studying at HKUST. I also have an extend
 - [Diary 0 - building this portfolio](./Comp4461/Diary0.md)
 - [Diary 1](./Comp4461/Diary1.md)
 
+## Notes -  Human Computer Interaction
+- [Lecture 2: User-Centered Design](Comp4461/notes_L2.md)
 
 # My Skills
 I started learning how to code when covid-19 hit and I had free time. Here's some of the things I'm using / have a good amount of knowledge in:
