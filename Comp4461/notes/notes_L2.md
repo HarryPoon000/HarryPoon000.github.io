@@ -1,4 +1,6 @@
 # Comp 4461 Lecture 2
+[Home Page](../../README.md) | [Previous Lecture]() | [Next Lecture]()
+
 - [Comp 4461 Lecture 2](#comp-4461-lecture-2)
 - [User-Centered Design](#user-centered-design)
   - ["What makes a game changer?"](#what-makes-a-game-changer)
@@ -24,8 +26,8 @@
     - [Find the Mainstreams and Extremes](#find-the-mainstreams-and-extremes)
       - [Rapid Needfinding](#rapid-needfinding)
     - [Analysis and Reflection](#analysis-and-reflection)
+- [Project 1](#project-1)
 
-[Home Page](../README.md) | [Previous Lecture]() | [Next Lecture]()
 
 # User-Centered Design
 
@@ -148,3 +150,9 @@ Define: Who, What, When, Where, Why
 
 ### Analysis and Reflection
 We need quantitative and qualitative analysis
+
+
+
+
+# Project 1 
+Define the persona for students from ocean world

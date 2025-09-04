@@ -16,11 +16,11 @@ My name's Harry, I'm a Comp Sci student studying at HKUST. I also have an extend
 
 # Coursework and Projects
 ## Project Diaries - Human Computer Interaction (Comp4461)
-- [Diary 0 - building this portfolio](./Comp4461/Diary0.md)
+- [Diary 0 - building this portfolio](./Comp4461/diaries/Diary0.md)
 - [Diary 1](./Comp4461/Diary1.md)
 
 ## Notes -  Human Computer Interaction
-- [Lecture 2: User-Centered Design](Comp4461/notes_L2.md)
+- [Lecture 2: User-Centered Design](Comp4461/notes/notes_L2.md)
 
 # My Skills
 I started learning how to code when covid-19 hit and I had free time. Here's some of the things I'm using / have a good amount of knowledge in:
