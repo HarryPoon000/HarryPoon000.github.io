@@ -1,5 +1,5 @@
 # Comp 4461 Lecture 2
-[Home Page](../../README.md) | [Previous Lecture]() | [Next Lecture]()
+[Home Page](../../README.md) | [Previous Lecture]() | [Next Lecture](./notes_L3.md)
 
 - [Comp 4461 Lecture 2](#comp-4461-lecture-2)
 - [User-Centered Design](#user-centered-design)
