@@ -21,6 +21,7 @@ My name's Harry, I'm a Comp Sci student studying at HKUST. I also have an extend
 
 ## Notes -  Human Computer Interaction
 - [Lecture 2: User-Centered Design](Comp4461/notes/notes_L2.md)
+- [Lecture 3: Understanding Humans](Comp4461/notes/notes_L3.md)
 
 # My Skills
 I started learning how to code when covid-19 hit and I had free time. Here's some of the things I'm using / have a good amount of knowledge in:

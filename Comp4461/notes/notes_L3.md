@@ -50,11 +50,11 @@ We want to make the design intuitive for humans to understand
 
 FOV: We should put the thing that needs focus near the centre\
 <p align="center">
-  <img width="300" src="img/03/fov.png"></img>
+  <img width="300" src="img/03/fov.png">
 </p>
 
 <p align="center">
-  <img width="300" src="img/03/distance.png"></img>
+  <img width="300" src="img/03/distance.png">
 </p>
 
 
@@ -73,7 +73,7 @@ FOV: We should put the thing that needs focus near the centre\
 - Common Fate
 Things that are moving together (in the same direction) are thought of as a group
   <p align="center">
-    <img width="500" src="img/03/vision-common-fate.png"></img>
+    <img width="500" src="img/03/vision-common-fate.png">
   </p>
 
   **Another source of common fate is responsiveness/delay**
@@ -81,7 +81,7 @@ Things that are moving together (in the same direction) are thought of as a grou
 
 - Symmetry
 <p align="center">
-    <img width="500" src="img/03/vision-symmetry.png"></img>
+    <img width="500" src="img/03/vision-symmetry.png">
 </p>
 
 
@@ -95,7 +95,7 @@ There may be multiple perceptions of the same image. People may take different p
   - shadow
 
   <p align="center">
-    <img width="450" src="img/03/vision-figure-ground.png"></img>
+    <img width="450" src="img/03/vision-figure-ground.png">
   </p>
 
 
@@ -105,7 +105,7 @@ There may be multiple perceptions of the same image. People may take different p
 - Similarity\
   things that are of the same colour are of the same group
   <p align="center">
-    <img width="450" src="img/03/vision-similar.png"></img>
+    <img width="450" src="img/03/vision-similar.png">
   </p>
 
 - Proximity\
@@ -114,12 +114,12 @@ There may be multiple perceptions of the same image. People may take different p
   similarity vs proximity: proximity is a **STRONGER CUE** than similarity
 
   <p align="center">
-    <img width="450" src="img/03/vision-prox.png"></img>
+    <img width="450" src="img/03/vision-prox.png">
   </p>
 
 - Common Region
   <p align="center">
-    <img width="450" src="img/03/vision-region.png"></img>
+    <img width="450" src="img/03/vision-region.png">
   </p>
 
 
@@ -128,12 +128,12 @@ There may be multiple perceptions of the same image. People may take different p
 Humans are most sensitive to <span style="color: #00ff00;">green</span> 
 > during the day, the sensitivity is more yellow
 <p align="center">
-  <img width="300" src="img/03/color-sens-general.png"></img>
+  <img width="300" src="img/03/color-sens-general.png">
 </p>
 
 Different envirenment (e.g. lighting) and people may have different perception
   <p align="center">
-    <img width="500" src="img/03/color-diff.png"></img>
+    <img width="500" src="img/03/color-diff.png">
   </p>
 
 
@@ -147,7 +147,7 @@ Different envirenment (e.g. lighting) and people may have different perception
 Some people may not be able to tell similar colours apart
 
 <p align="center">
-  <img width="500" src="img/03/color-double-enc.png"></img>
+  <img width="500" src="img/03/color-double-enc.png">
 </p>
 
 ### Implications of Vision for HCI
@@ -180,7 +180,7 @@ Our hearing processes speech, music, environmental sounds, and synthesis sounds.
 ## Senses - Touch
 Pressure triggers the sense of touch
 <p align="center">
-  <img width="500" src="img/03/touch-sens.png"></img>
+  <img width="500" src="img/03/touch-sens.png">
 </p>
 
 ### Implications for HCI
@@ -208,13 +208,13 @@ the countdown was moved to be on the skip ad button
 
 ### Fitts's law
 <p align="center">
-  <img width="400" src="img/03/fitts.png"></img>
+  <img width="400" src="img/03/fitts.png">
 </p>
 
 
 ### Interface design
 <p align="center">
-  <img width="500" src="img/03/interface.png"></img>
+  <img width="500" src="img/03/interface.png">
 </p>
 
 - different keyboard layouts are arranged based on the usage frequency
