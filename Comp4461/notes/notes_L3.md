@@ -1,5 +1,5 @@
 # Comp 4461 Lecture 3 (9/9/2025)
-[Home Page](../../README.md) | [Previous Lecture](./notes_L2.md) | [Next Lecture]()
+[Home Page](../../README.md) | [Previous Lecture](./notes_L2.md) | [Next Lecture](./notes_L4.md)
 
 - [Comp 4461 Lecture 3 (9/9/2025)](#comp-4461-lecture-3-992025)
 - [Understanding Humans](#understanding-humans)
