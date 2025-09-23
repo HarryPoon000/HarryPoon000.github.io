@@ -1,5 +1,5 @@
 # Comp 4461 Lecture 6 (18/9/2025)
-[Home Page](../../README.md) | [Previous Lecture](./notes_L5.md) | [Next Lecture]()
+[Home Page](../../README.md) | [Previous Lecture](./notes_L5.md) | [Next Lecture](./notes_L7.md)
 
 - [Comp 4461 Lecture 6 (18/9/2025)](#comp-4461-lecture-6-1892025)
 - [Interpret](#interpret)
