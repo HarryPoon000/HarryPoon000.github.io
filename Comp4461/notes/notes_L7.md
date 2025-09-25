@@ -1,5 +1,5 @@
 # Comp 4461 Lecture 7 (23/9/2025)
-[Home Page](../../README.md) | [Previous Lecture](./notes_L6.md) | [Next Lecture]()
+[Home Page](../../README.md) | [Previous Lecture](./notes_L6.md) | [Next Lecture](./notes_L8.md)
 
 - [Comp 4461 Lecture 7 (23/9/2025)](#comp-4461-lecture-7-2392025)
 - [Visual Interaction and HCI](#visual-interaction-and-hci)
