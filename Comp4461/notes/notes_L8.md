@@ -1,5 +1,5 @@
 # Comp 4461 Lecture 8 (25/9/2025): Human Robot Interaction
-[Home Page](../../README.md) | [Previous Lecture](./notes_L7.md) | [Next Lecture]()
+[Home Page](../../README.md) | [Previous Lecture](./notes_L7.md) | [Next Lecture](./notes_L9.md)
 
 - [Comp 4461 Lecture 8 (25/9/2025): Human Robot Interaction](#comp-4461-lecture-8-2592025-human-robot-interaction)
 - [Types of robots](#types-of-robots)

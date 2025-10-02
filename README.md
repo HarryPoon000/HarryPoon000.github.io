@@ -28,6 +28,7 @@ My name's Harry, I'm a Comp Sci student studying at HKUST. I also have an extend
 - [Lecture 7](Comp4461/notes/notes_L7.md)
 - [Lecture 8](Comp4461/notes/notes_L8.md)
 - [Lecture 9](Comp4461/notes/notes_L9.md)
+- [Lecture 10](Comp4461/notes/notes_L10.md)
 
 # My Skills
 I started learning how to code when covid-19 hit and I had free time. Here's some of the things I'm using / have a good amount of knowledge in:

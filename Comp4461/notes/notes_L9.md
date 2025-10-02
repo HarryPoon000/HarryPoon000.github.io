@@ -1,5 +1,5 @@
 # Comp 4461 Lecture 9 (30/9/2025): Prototyping
-[Home Page](../../README.md) | [Previous Lecture](./notes_L8.md) | [Next Lecture]()
+[Home Page](../../README.md) | [Previous Lecture](./notes_L8.md) | [Next Lecture](./notes_L10.md)
 
 - [Comp 4461 Lecture 9 (30/9/2025): Prototyping](#comp-4461-lecture-9-3092025-prototyping)
 - [Prototyping Process](#prototyping-process)
