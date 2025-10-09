@@ -1,5 +1,5 @@
 # Comp 4461 Lecture 10 (2/10/2025): Prototyping
-[Home Page](../../README.md) | [Previous Lecture](./notes_L8.md) | [Next Lecture]()
+[Home Page](../../README.md) | [Previous Lecture](./notes_L9.md) | [Next Lecture](./notes_L11.md)
 
 - [Comp 4461 Lecture 10 (2/10/2025): Prototyping](#comp-4461-lecture-10-2102025-prototyping)
 - [Ubiquitous Computing](#ubiquitous-computing)

@@ -1,7 +1,7 @@
-# Comp 4461 Lecture 3 (9/9/2025)
+# Comp 4461 Lecture 4
 [Home Page](../../README.md) | [Previous Lecture](./notes_L3.md) | [Next Lecture](./notes_L5.md)
 
-- [Comp 4461 Lecture 3 (9/9/2025)](#comp-4461-lecture-3-992025)
+- [Comp 4461 Lecture 4](#comp-4461-lecture-4)
 - [Understanding Humans - Memory](#understanding-humans---memory)
   - [Short-term vs. Long-term Memory](#short-term-vs-long-term-memory)
     - [Spread-Activation Theory](#spread-activation-theory)
