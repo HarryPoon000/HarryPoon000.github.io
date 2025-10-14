@@ -1,5 +1,5 @@
 # Comp 4461 Lecture 11 (9/10/2025): Evaluation
-[Home Page](../../README.md) | [Previous Lecture](./notes_L10.md) | [Next Lecture]()
+[Home Page](../../README.md) | [Previous Lecture](./notes_L10.md) | [Next Lecture](./notes_L12.md)
 
 - [Comp 4461 Lecture 11 (9/10/2025): Evaluation](#comp-4461-lecture-11-9102025-evaluation)
 - [User Sampling Method](#user-sampling-method)
