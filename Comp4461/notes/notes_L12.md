@@ -1,5 +1,5 @@
 # Comp 4461 Lecture 12 (14/10/2025): Evaluation
-[Home Page](../../README.md) | [Previous Lecture](./notes_L11.md) | [Next Lecture]()
+[Home Page](../../README.md) | [Previous Lecture](./notes_L11.md) | [Next Lecture](./notes_L13.md)
 
 - [Comp 4461 Lecture 12 (14/10/2025): Evaluation](#comp-4461-lecture-12-14102025-evaluation)
 - [Heuristic Testing](#heuristic-testing)
