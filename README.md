@@ -18,6 +18,7 @@ My name's Harry, I'm a Comp Sci student studying at HKUST. I also have an extend
 ## Project Diaries - Human Computer Interaction (Comp4461)
 - [Diary 0 - building this portfolio](./Comp4461/diaries/Diary0.md)
 - [Diary 1 - (P1) Atlantic students](./Comp4461/diaries/Diary1.md)
+- [Diary 2 - (P2) Chatbot for Disaster Management](./Comp4461/diaries/Diary2.md)
 
 ## Notes -  Human Computer Interaction
 - [Lecture 2: User-Centered Design](Comp4461/notes/notes_L2.md)

@@ -1,6 +1,6 @@
 # Diary 1: Atlantic exchange students
 
-[Home Page](../../README.md) | [Previous Diary](./Diary0.md) | [Next Diary]()
+[Home Page](../../README.md) | [Previous Diary](./Diary0.md) | [Next Diary](./Diary2.md)
 
 
 # TOC
