@@ -22,6 +22,7 @@
 - drawing some of the storyboards
 - usability questionnaire
 - presentation sides
+- prototype: initial setup of streamlit and implementation of the LLM prompt structure
 
 # storyboard (my first drafts)
 These drawings were not used directly since I accidentally drew the combination of all 3 ideas that we had. In the end, we modified and added to the storyboards.
