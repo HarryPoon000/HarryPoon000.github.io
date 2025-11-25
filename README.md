@@ -7,17 +7,15 @@ My name's Harry, I'm a Comp Sci student studying at HKUST. I also have an extend
 - [About Me](#about-me)
 - [Page Contents](#page-contents)
 - [Coursework and Projects](#coursework-and-projects)
-  - [FinAdvisor](#finadvisor)
   - [Project Diaries - Human Computer Interaction (Comp4461)](#project-diaries---human-computer-interaction-comp4461)
   - [Notes -  Human Computer Interaction](#notes----human-computer-interaction)
+  - [(Comp4651 project) FinAdvisor](#comp4651-project-finadvisor)
 - [My Skills](#my-skills)
 - [More about me](#more-about-me)
   - [My Socials](#my-socials)
   - [My Hobbies](#my-hobbies)
 
 # Coursework and Projects
-## FinAdvisor
-- [FinAdvisor](Comp4651/finadvisor/ui.html)
 ## Project Diaries - Human Computer Interaction (Comp4461)
 - [Diary 0 - building this portfolio](./Comp4461/diaries/Diary0.md)
 - [Diary 1 - (P1) Atlantic students](./Comp4461/diaries/Diary1.md)
@@ -35,6 +33,10 @@ My name's Harry, I'm a Comp Sci student studying at HKUST. I also have an extend
 - [Lecture 10](Comp4461/notes/notes_L10.md)
 - [Lecture 11](Comp4461/notes/notes_L11.md)
 - [Lecture 12](Comp4461/notes/notes_L12.md)
+
+## (Comp4651 project) FinAdvisor
+- [FinAdvisor UI](Comp4651/finadvisor/ui.html)
+
 
 # My Skills
 I started learning how to code when covid-19 hit and I had free time. Here's some of the things I'm using / have a good amount of knowledge in:
