@@ -7,6 +7,7 @@ My name's Harry, I'm a Comp Sci student studying at HKUST. I also have an extend
 - [About Me](#about-me)
 - [Page Contents](#page-contents)
 - [Coursework and Projects](#coursework-and-projects)
+  - [FinAdvisor](#finadvisor)
   - [Project Diaries - Human Computer Interaction (Comp4461)](#project-diaries---human-computer-interaction-comp4461)
   - [Notes -  Human Computer Interaction](#notes----human-computer-interaction)
 - [My Skills](#my-skills)
@@ -15,6 +16,8 @@ My name's Harry, I'm a Comp Sci student studying at HKUST. I also have an extend
   - [My Hobbies](#my-hobbies)
 
 # Coursework and Projects
+## FinAdvisor
+- [FinAdvisor](Comp4651/finadvisor/ui.html)
 ## Project Diaries - Human Computer Interaction (Comp4461)
 - [Diary 0 - building this portfolio](./Comp4461/diaries/Diary0.md)
 - [Diary 1 - (P1) Atlantic students](./Comp4461/diaries/Diary1.md)
