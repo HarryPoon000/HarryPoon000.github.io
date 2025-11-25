@@ -140,7 +140,15 @@
     
     <div class="form-group">
       <label for="query">Your Question:</label>
-      <textarea id="query" rows="5" placeholder="Ask about budgeting, saving strategies, financial planning, etc."></textarea>
+      <textarea id="query" rows="8" placeholder="Ask about budgeting, saving strategies, financial planning, etc.">
+Profile: subscription-maximizer.
+Window: last 30 days.
+Totals: Income HKD 19,359; Spend HKD 20,918; Net HKD -1,559.
+Top spend: Rent:11684, Shopping:3713, Utilities:1434.
+Recurring: HKD 11,888 across 2 items.
+Delivery orders (approx): 0.
+Task: Suggest 2-3 actionable steps to reduce spend with ~HKD monthly savings estimates.
+      </textarea>
     </div>
     
     <button onclick="sendQuery()">Get Advice</button>
@@ -174,8 +182,9 @@
           body: JSON.stringify({query})
         });
         const data = await res.json();
+        const output = data.response.split("-").join("\n\n").trim();
         responseDiv.className = "";
-        responseDiv.innerText = data.response ?? data.error ?? "Unexpected error";
+        responseDiv.innerText = output ?? data.error ?? "Unexpected error";
       } catch (error) {
         responseDiv.className = "";
         responseDiv.innerText = "Error: " + error.message;
