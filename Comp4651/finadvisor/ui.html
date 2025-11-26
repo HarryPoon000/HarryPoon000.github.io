@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -131,13 +132,73 @@
       color: #667eea;
       font-style: italic;
     }
+
+    .samples-section {
+      margin-bottom: 25px;
+      padding: 16px;
+      background: #f9f9f9;
+      border-radius: 8px;
+      border: 1px solid #e0e0e0;
+    }
+
+    .samples-label {
+      color: #333;
+      font-weight: 600;
+      margin-bottom: 12px;
+      font-size: 14px;
+      display: block;
+    }
+
+    .samples-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .sample-btn {
+      padding: 8px 12px;
+      background: white;
+      color: #667eea;
+      border: 1.5px solid #667eea;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-align: left;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .sample-btn:hover {
+      background: #f0f0ff;
+      transform: translateY(-1px);
+    }
+
+    .sample-btn.active {
+      background: #667eea;
+      color: white;
+    }
+
+    @media (max-width: 500px) {
+      .samples-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
+
 <body>
   <div class="container">
     <h1>💰 Financial Advisor</h1>
     <p class="subtitle">Get personalized financial advice about budgeting & saving</p>
-    
+
+    <div class="samples-section">
+      <label class="samples-label">📋 Sample Query:</label>
+      <div class="samples-grid" id="samplesGrid"></div>
+    </div>
+
     <div class="form-group">
       <label for="query">Your Question:</label>
       <textarea id="query" rows="8" placeholder="Ask about budgeting, saving strategies, financial planning, etc.">
@@ -150,9 +211,9 @@ Delivery orders (approx): 0.
 Task: Suggest 2-3 actionable steps to reduce spend with ~HKD monthly savings estimates.
       </textarea>
     </div>
-    
+
     <button onclick="sendQuery()">Get Advice</button>
-    
+
     <div class="response-section">
       <label class="response-label">Response:</label>
       <div id="response"></div>
@@ -160,10 +221,46 @@ Task: Suggest 2-3 actionable steps to reduce spend with ~HKD monthly savings est
   </div>
 
   <script>
+    const prompts = [
+      "Profile: subscription-maximizer.\nWindow: last 30 days.\nTotals: Income HKD 19,359; Spend HKD 20,918; Net HKD -1,559.\nTop spend: Rent:11684, Shopping:3713, Utilities:1434.\nRecurring: HKD 11,888 across 2 items.\nDelivery orders (approx): 0.\nTask: Suggest 2-3 actionable steps to reduce spend with ~HKD monthly savings estimates.",
+      "Profile: stretched renter.\nWindow: last 90 days.\nTotals: Income SGD 64,674; Spend SGD 61,870; Net SGD 2,804.\nTop spend: Rent:40851, Utilities:4604, Shopping:4331.\nRecurring: SGD 41,631 across 1 items.\nDelivery orders (approx): 10.\nTask: Provide 2-3 practical budgeting suggestions with estimated SGD monthly savings.",
+      "Profile: aggressive saver.\nWindow: last 180 days.\nTotals: Income SGD 226,446; Spend SGD 76,245; Net SGD 150,201.\nTop spend: Rent:26586, Shopping:15762, Entertainment:8785.\nRecurring: SGD 27,354 across 1 items.\nDelivery orders (approx): 11.\nTask: Suggest 2-3 actionable steps to reduce spend with ~SGD monthly savings estimates.",
+      "Profile: unsteady-income spender.\nWindow: last 7 days.\nTotals: Income HKD 0; Spend HKD 1,816; Net HKD -1,816.\nTop spend: Dining:723, Entertainment:670, Groceries:335.\nRecurring: HKD 0 across 0 items.\nDelivery orders (approx): 2.\nTask: Provide 2-3 practical budgeting suggestions with estimated HKD monthly savings.",
+      "Profile: shopper with flexible spend.\nWindow: last 30 days.\nTotals: Income HKD 12,484; Spend HKD 13,323; Net HKD -839.\nTop spend: Rent:5493, Shopping:2917, Utilities:1264.\nRecurring: HKD 5,590 across 1 items.\nDelivery orders (approx): 1.\nTask: Give 2-3 concrete budgeting tips with rough HKD savings per month.",
+      "Profile: delivery-focused foodie.\nWindow: last 45 days.\nTotals: Income USD 24,293; Spend USD 25,108; Net USD -815.\nTop spend: Rent:10694, Shopping:5538, Entertainment:2644.\nRecurring: USD 10,843 across 1 items.\nDelivery orders (approx): 6.\nTask: Give 2-3 concrete budgeting tips with rough USD savings per month.",
+    ];
+
+    function initializeSamples() {
+      const grid = document.getElementById("samplesGrid");
+      prompts.forEach((prompt, index) => {
+        const profileMatch = prompt.match(/Profile: ([^.]+)/);
+        const profile = profileMatch ? profileMatch[1] : `Sample ${index + 1}`;
+        
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "sample-btn";
+        btn.textContent = profile;
+        btn.onclick = () => selectSample(index, btn);
+        grid.appendChild(btn);
+      });
+    }
+
+    function selectSample(index, btn) {
+      const textarea = document.getElementById("query");
+      textarea.value = prompts[index];
+      
+      // Update active state
+      document.querySelectorAll(".sample-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      
+      // Focus textarea for better UX
+      textarea.focus();
+    }
+
     async function sendQuery() {
       const query = document.getElementById("query").value;
       const responseDiv = document.getElementById("response");
-      
+
       if (!query.trim()) {
         responseDiv.innerText = "Please enter a question.";
         return;
@@ -178,8 +275,8 @@ Task: Suggest 2-3 actionable steps to reduce spend with ~HKD monthly savings est
       try {
         const res = await fetch("https://1lv2h7f7mi.execute-api.us-east-1.amazonaws.com/prod/predict", {
           method: "POST",
-          headers: {"Content-Type": "application/json"},
-          body: JSON.stringify({query})
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ query })
         });
         const data = await res.json();
         const output = data.response.split("-").join("\n\n").trim();
@@ -193,6 +290,11 @@ Task: Suggest 2-3 actionable steps to reduce spend with ~HKD monthly savings est
         button.innerText = "Get Advice";
       }
     }
+
+    // Initialize sample buttons on page load
+    document.addEventListener("DOMContentLoaded", initializeSamples);
+
   </script>
 </body>
+
 </html>
