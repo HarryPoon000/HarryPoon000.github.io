@@ -7,8 +7,7 @@ My name's Harry, I'm a Comp Sci student studying at HKUST. I also have an extend
 - [About Me](#about-me)
 - [Page Contents](#page-contents)
 - [Coursework and Projects](#coursework-and-projects)
-  - [Project Diaries - Human Computer Interaction (Comp4461)](#project-diaries---human-computer-interaction-comp4461)
-  - [Notes -  Human Computer Interaction](#notes----human-computer-interaction)
+  - [Comp4461](#comp4461)
   - [(Comp4651 project) FinAdvisor](#comp4651-project-finadvisor)
 - [My Skills](#my-skills)
 - [More about me](#more-about-me)
@@ -16,24 +15,9 @@ My name's Harry, I'm a Comp Sci student studying at HKUST. I also have an extend
   - [My Hobbies](#my-hobbies)
 
 # Coursework and Projects
-## Project Diaries - Human Computer Interaction (Comp4461)
-- [Diary 0 - building this portfolio](./Comp4461/diaries/Diary0.md)
-- [Diary 1 - (P1) Atlantic students](./Comp4461/diaries/Diary1.md)
-- [Diary 2 - (P2) Chatbot for Disaster Management](./Comp4461/diaries/Diary2.md)
-- [Diary 3 - (P3) Social XR](./Comp4461/diaries/Diary3.md)
+## [Comp4461](./Comp4461/comp4461.md)
+- [click here](./Comp4461/comp4461.md)
 
-## Notes -  Human Computer Interaction
-- [Lecture 2: User-Centered Design](Comp4461/notes/notes_L2.md)
-- [Lecture 3: Understanding Humans](Comp4461/notes/notes_L3.md)
-- [Lecture 4](Comp4461/notes/notes_L4.md)
-- [Lecture 5](Comp4461/notes/notes_L5.md)
-- [Lecture 6](Comp4461/notes/notes_L6.md)
-- [Lecture 7](Comp4461/notes/notes_L7.md)
-- [Lecture 8](Comp4461/notes/notes_L8.md)
-- [Lecture 9](Comp4461/notes/notes_L9.md)
-- [Lecture 10](Comp4461/notes/notes_L10.md)
-- [Lecture 11](Comp4461/notes/notes_L11.md)
-- [Lecture 12](Comp4461/notes/notes_L12.md)
 
 ## (Comp4651 project) FinAdvisor
 - [FinAdvisor UI](Comp4651/finadvisor/ui.html)

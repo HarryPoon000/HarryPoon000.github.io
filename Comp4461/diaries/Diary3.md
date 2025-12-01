@@ -1,6 +1,6 @@
 # Diary 3: Social XR
 
-[Home Page](../../README.md) | [Previous Diary](./Diary2.md) | [Next Diary]()
+[Home Page](../../README.md) | [Previous Diary](./Diary2.md) 
 
 
 # TOC
