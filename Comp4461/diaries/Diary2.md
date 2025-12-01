@@ -1,6 +1,6 @@
 # Diary 2: Chatbot for Disaster Management
 
-[Home Page](../../README.md) | [Previous Diary](./Diary1.md) | [Next Diary]()
+[Home Page](../../README.md) | [Previous Diary](./Diary1.md) | [Next Diary](./Diary3.md)
 
 
 # TOC
